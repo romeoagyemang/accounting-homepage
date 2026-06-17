@@ -3,17 +3,17 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const inter = localFont({
-  src: "./fonts/Inter.ttf",
+  src: "./fonts/Inter.woff2",
   variable: "--font-inter",
   display: "swap",
-  weight: "100 900",
+  weight: "400 600",
 });
 
 const sourceSerif = localFont({
-  src: "./fonts/SourceSerif4.ttf",
+  src: "./fonts/SourceSerif4.woff2",
   variable: "--font-source-serif",
   display: "swap",
-  weight: "200 900",
+  weight: "500 600",
 });
 
 export const metadata: Metadata = {
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     "limited company accountant",
     "chartered accountant London",
   ],
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://accounting-homepage.vercel.app"),
   openGraph: {
     title: "Harrow & Cole Accountants | Small Business Accountants in London",
     description:
       "Reliable, responsive accounting for sole traders and limited companies under £500k turnover. Book a free consultation.",
-    url: "https://example.com",
+    url: "https://accounting-homepage.vercel.app",
     siteName: "Harrow & Cole Accountants",
     locale: "en_GB",
     type: "website",
